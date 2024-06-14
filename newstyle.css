@@ -1,0 +1,118 @@
+#container{
+    border-radius: 2%;
+    display:flex;
+    width:15rem;
+    flex-direction: column;
+    background-color: beige;
+    padding-left:1rem;
+    padding-bottom:1rem;
+}
+#transactionhistory{
+    list-style-type: disc;
+}
+li{
+    background-color: rgb(139, 240, 108);
+    color:white;
+}
+#currentbalance{
+    align-self: flex-start;
+}
+#balance{
+    font-size: 16px;
+    font-family:lato,sans-serif;
+    margin-bottom:3px;
+    font-weight: bold;
+}
+#totaldollar{
+    display:flex;
+}
+#dollar0{
+    font-size:32px ;
+   font-family: sans-serif;
+   margin-top:0px;
+   font-weight: bold;
+}
+#balancedollar{
+   font-size:32px ;
+   font-family: sans-serif;
+   margin-top:0px;
+   font-weight: bold;
+}
+#incomeandexpense{
+    display:flex;
+    margin: 15px;
+}
+#income{
+    font-size: 16px;
+    padding-right: 15px;
+    border-right:0.5px solid rgb(109, 109, 54);
+}
+#expense{
+    font-size:16px;
+   padding-left: 15px;
+}
+#incomedollar{
+    font-size: 20px;
+    color:green;
+}
+#dollar1{
+    font-size: 20px;
+    color:green;
+    display:inline;
+}
+#expensediv{
+    display:flex;
+}
+#incomediv{
+    display:flex;
+}
+#expensedollar{
+    font-size: 20px;
+    color:red;
+}
+#dollar2{
+    font-size: 20px;
+    color:red;
+}
+#history{
+    display:block;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: sans-serif,lato;
+    align-self: flex-start;
+    border-bottom:0.8px solid lightblue;
+
+}
+#transaction{
+    display:block;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: sans-serif,lato;
+    align-self: flex-start;
+    border-bottom:0.8px solid lightblue;
+
+}
+#text{
+    display:block;
+    font-size: 16px;
+    font-family: sans-serif,lato;
+    align-self: flex-start;
+}
+#amount{
+    display:block;
+    font-size: 16px;
+    font-family: sans-serif,lato;
+    align-self: flex-start;
+}
+#button{
+    background-color: rgb(67, 67, 158);
+    color:white;
+    width:180px;
+    height:25px;
+    align-self: flex-start;
+    border-radius: 50%;
+}
+body{
+    display:flex;
+    justify-content: center;
+}
